@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.github.wangqian-projects</groupId>
+        <artifactId>aster-cloud-starter-parent</artifactId>
+        <version>0.0.1</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <artifactId>aster-identity</artifactId>
+    <version>0.0.1</version>
+
+    <packaging>pom</packaging>
+    <name>aster-identity</name>
+    <description>应用身份服务中心</description>
+
+    <modules>
+        <module>aster-identity-account</module>
+        <module>aster-identity-authentication</module>
+        <module>aster-identity-authorization</module>
+        <module>aster-identity-application</module>
+        <module>aster-identity-audit</module>
+    </modules>
+
+</project>
