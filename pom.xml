@@ -18,10 +18,10 @@
     <description>应用身份服务中心</description>
 
     <modules>
+        <module>aster-identity-application</module>
         <module>aster-identity-account</module>
         <module>aster-identity-authentication</module>
         <module>aster-identity-authorization</module>
-        <module>aster-identity-application</module>
         <module>aster-identity-audit</module>
     </modules>
 
